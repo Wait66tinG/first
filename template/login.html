@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5"
+                style="background: rgba(80, 220, 255, 0.14);height: 20rem;width: 26.6rem;border-radius: 0.2rem;border-bottom:0.05rem solid whitesmoke">
+                <table style="margin: 1rem 1rem 1rem 1rem">
+                    <thead>login</thead>
+                    <tbody>
+                        <th>123</th>
+                        <th>234</th>
+                        <td>123</td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        //<!CDATA[
+        var bodyBgs = [];
+        bodyBgs[0] = "img/1.jpg";
+        bodyBgs[1] = "img/2.jpg";
+        bodyBgs[2] = "img/3.jpg";
+        bodyBgs[3] = "img/4.jpg";
+        bodyBgs[4] = "img/5.jpg";
+        bodyBgs[5] = "img/6.jpg";
+        bodyBgs[6] = "img/7.jpg";
+        bodyBgs[6] = "img/8.jpg";
+
+        var randomBgIndex = Math.round(Math.random() * 6);
+
+        //输出随机的背景图
+        document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 100% 0}</style>');
+                //]]>
+    </script>
+</body>
+
+</html>
