@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>login</title>
+    <title>sign up</title>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style type="text/css">
@@ -16,6 +16,7 @@
             left: 0;
             right: 0;
             margin: auto;
+            background-size:100% 100%;  
 
         }
     </style>
@@ -24,12 +25,15 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 offset-md-3 mt-5"
-                style="background: rgba(80, 220, 255, 0.14);height: 20rem;width: 26.6rem;border-radius: 0.2rem;border-bottom:0.05rem solid whitesmoke">
-                <div class="">
-                    <table id="login" height="100%" width="100%" cellspacing="0" cellpadding="0">
-                        <tr height="50">
-                            <td width="50" class="cell">
+            <div class="col-md-8 offset-md-2 mt-5 row "
+                style="background: rgba(80, 220, 255, 0.14);height: 20rem;width: 26.6rem;border-radius: 0.5rem;border-bottom:0.05rem solid whitesmoke;box-shadow: #111 0px 5px 15px 1px;padding: 0%">
+                <div class="" style="border-radius: 0.5rem 0 0 0.5rem;width: 50%;left:0%;height:20rem;overflow:hidden;background-image: url(img/left.jpg); background-size:100% 100%;opacity: 0.8;  ">
+                    <p class="h1 " style="padding: left 1rem;text-align: center;"> Secret Space</p>
+                </div>
+                <div class="" style="width: 50%;left:50%;height:20rem">
+                    <table class="table">
+                        <tr >
+                            <td >
                                 <i class="large user icon"></i>
                             </td>
                             <td>
@@ -40,25 +44,12 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        <tr height="50">
-                            <td width="50" class="cell">
+                        <tr >
+                            <td >
                                 <i class="large lock icon"></i>
                             </td>
                             <td>
                                 <input id="password" type="password" class="in" placeholder="密码" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr height="50">
-                            <td colspan="2" align="center">
-                                <div class="ui buttons row">
-                                    <button  class="btn-info">登录系统</button>
-                                    <div class="or"></div>
-                                    <button class="btn-info">找回密码</button>
-                                </div>
                             </td>
                         </tr>
                     </table>
