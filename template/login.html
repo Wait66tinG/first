@@ -16,46 +16,54 @@
             left: 0;
             right: 0;
             margin: auto;
-            background-size:100% 100%;  
+            background-size: 100% 100%;
 
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 offset-md-2 mt-5 row "
-                style="background: rgba(80, 220, 255, 0.14);height: 20rem;width: 26.6rem;border-radius: 0.5rem;border-bottom:0.05rem solid whitesmoke;box-shadow: #111 0px 5px 15px 1px;padding: 0%">
-                <div class="" style="border-radius: 0.5rem 0 0 0.5rem;width: 50%;left:0%;height:20rem;overflow:hidden;background-image: url(img/left.jpg); background-size:100% 100%;opacity: 0.8;  ">
+        <div class="row" style="margin-top:10rem;">
+            <div class="col-md-4 offset-md-4  row "
+                style="height: 20rem;width: 26.6rem;border-radius: 0.5rem;border-bottom:0.05rem solid whitesmoke;box-shadow: #111 0px 5px 15px 1px;padding: 0%">
+                <div class=""
+                    style="border-radius: 0.5rem;width: 100%;left:0%;height:20rem;overflow:hidden;background-image: url(img/left.png); background-size:100% 100%; text-align: center">
                     <p class="h1 " style="padding: left 1rem;text-align: center;"> Secret Space</p>
-                </div>
-                <div class="" style="width: 50%;left:50%;height:20rem">
-                    <table class="table">
-                        <tr >
-                            <td >
-                                <i class="large user icon"></i>
-                            </td>
-                            <td>
-                                <input id="username" type="text" class="in" placeholder="用户名" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr >
-                            <td >
-                                <i class="large lock icon"></i>
-                            </td>
-                            <td>
-                                <input id="password" type="password" class="in" placeholder="密码" />
-                            </td>
-                        </tr>
-                    </table>
+                    <hr>
+
+                    <div class="text-center" style="padding:2rem 2rem 0 2rem">
+                        <form class="form-signin">
+                            <label  for="inputEmail" class="sr-only" >Email address</label>
+                            <input  class="form-control" placeholder="Email address/Phone number/User name"
+                                required autofocus>
+                            <label  for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password"
+                                required>
+                            <div class="checkbox mb-3">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                            <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
     </div>
     </div>
